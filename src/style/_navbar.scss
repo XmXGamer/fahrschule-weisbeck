@@ -1,0 +1,25 @@
+.navbar{
+  color: white;
+  border-bottom: 2px solid yellow;
+
+  ul{
+    list-style: none;
+    margin-bottom: 0;
+  }
+
+  li{
+    display: inline;
+    padding: 5px;
+    border: 2px solid $header_bg_color;
+
+    &:hover{
+      background-color: white;
+      color: black;
+    }
+   &.active{
+      border-color: yellow;
+    }
+
+    border-bottom: 2px solid yellow;
+  }
+}

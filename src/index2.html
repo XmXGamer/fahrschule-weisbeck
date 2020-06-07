@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fahrschule Weisbeck</title>
+  <link href="style/main.css" rel="stylesheet">
+
+  <script src="vendors/jquery/jquery.js"></script>
+  <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="page">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+        </a><a href="http://localhost/" class="custom-logo-link" rel="home"><img width="400" height="71"
+            src="http://localhost/wp-content/uploads/2020/06/cropped-LogoWeisbeckFahrschule0411.png" class="custom-logo"
+            alt="Fahrschule Weisbeck"
+            srcset="http://localhost/wp-content/uploads/2020/06/cropped-LogoWeisbeckFahrschule0411.png 400w, http://localhost/wp-content/uploads/2020/06/cropped-LogoWeisbeckFahrschule0411-300x53.png 300w"
+            sizes="(max-width: 400px) 100vw, 400px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+          <ul id="menu-header-menu" class="nav navbar-nav ml-auto">
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-7"
+              class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active menu-item-7 nav-item">
+              <a title="Startseite" href="http://localhost" class="nav-link" aria-current="page">Startseite</a></li>
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1270"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1270 nav-item"><a title="News"
+                href="http://localhost/news/" class="nav-link">News</a></li>
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1271"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1271 nav-item"><a title="Team"
+                href="http://localhost/team/" class="nav-link">Team</a></li>
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1272"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1272 nav-item">
+              <a title="Fahrschulen" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                class="dropdown-toggle nav-link" id="menu-item-dropdown-1272">Fahrschulen</a>
+              <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-1272" role="menu">
+                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1278"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1278 nav-item"><a
+                    title="73776 Altbach" href="http://localhost/altbach/" class="dropdown-item">73776 Altbach</a></li>
+                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1277"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1277 nav-item"><a
+                    title="73779 Deizisau" href="http://localhost/deizisau/" class="dropdown-item">73779 Deizisau</a>
+                </li>
+              </ul>
+            </li>
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1273"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1273 nav-item">
+              <a title="Führerscheinklassen" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                class="dropdown-toggle nav-link" id="menu-item-dropdown-1273">Führerscheinklassen</a>
+              <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-1273" role="menu">
+                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1279"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1279 nav-item"><a
+                    title="Unsere Fahrzeuge" href="http://localhost/unsere-fahrzeuge/" class="dropdown-item">Unsere
+                    Fahrzeuge</a></li>
+              </ul>
+            </li>
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1274"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1274 nav-item">
+              <a title="Sonstiges" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                class="dropdown-toggle nav-link" id="menu-item-dropdown-1274">Sonstiges</a>
+              <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-1274" role="menu">
+                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1280"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1280 nav-item">
+                  <a title="Onlineanmeldung" href="http://localhost/onlineanmeldung/"
+                    class="dropdown-item">Onlineanmeldung</a></li>
+              </ul>
+            </li>
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1275"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1275 nav-item"><a
+                title="Anfahrt" href="http://localhost/anfahrt/" class="nav-link">Anfahrt</a></li>
+            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1276"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1276 nav-item">
+              <a title="Impressum/Datenschutz" href="#" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false" class="dropdown-toggle nav-link"
+                id="menu-item-dropdown-1276">Impressum/Datenschutz</a>
+              <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-1276" role="menu">
+                <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-1282"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1282 nav-item"><a
+                    title="Datenschutz" href="http://localhost/datenschutz/" class="dropdown-item">Datenschutz</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="content-slider" class="clr">
+      <div class="wrap-slider clr">
+        <h1 class="main-title">automatic slider css only</h1>
+
+        <!-- 	========================Thumbnail ControlNav======================================    -->
+        <input type="radio" id="a-1" name="a">
+        <input type="radio" id="a-2" name="a">
+        <input type="radio" id="a-3" name="a">
+        <input type="radio" id="a-4" name="a">
+
+        <nav id="main">
+          <label for="a-1" class="first"></label>
+          <label for="a-2" class="first"></label>
+          <label for="a-3" class="first"></label>
+          <label for="a-4" class="first"></label>
+          <!-- <label for="a-5" class="first"></label> -->
+        </nav>
+        <!-- 	==============================================================    -->
+        <nav id="control">
+          <label for="a-1"></label>
+          <label for="a-2"></label>
+          <label for="a-3"></label>
+          <label for="a-4"></label>
+          <!-- <label for="a-5" class="first"></label> -->
+        </nav>
+        <!-- 	==============================================================    -->
+
+        <!-- 	IMAGE NAVIGATION pic -->
+        <span id="b-1" class="th" tabindex="10">
+          <img src="https://github.com/lime7/slider/blob/master/images/pic-1.png?raw=true" alt="" id="p-1">
+          <div class="title-1">
+            <h1>PAK FA T-50</h1>
+            <p>Stealth multirole fighter</p>
+            <a href="">read more...</a>
+          </div>
+        </span>
+
+        <span id="b-2" class="th" tabindex="11">
+          <img src="https://github.com/lime7/slider/blob/master/images/pic-10.png?raw=true" alt="" id="p-2">
+          <div class="title-2">
+            <h1>Kamov Ka-50 "Black Shark"</h1>
+            <p>Attack helicopter</p>
+            <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg
+">CLICK HERE</a>
+          </div>
+        </span>
+
+        <span id="b-3" class="th" tabindex="12">
+          <img src="https://github.com/lime7/slider/blob/master/images/pic-3.png?raw=true" alt="" id="p-3">
+          <div class="title-3">
+            <h1>Sukhoi Su-27</h1>
+            <p>Air superiority fighter</p>
+            <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg
+">read more...</a>
+          </div>
+        </span>
+
+        <span id="b-4" class="th" tabindex="13">
+          <img src="https://github.com/lime7/slider/blob/master/images/pic-4.png?raw=true" alt="" id="p-4">
+          <div class="title-4">
+            <h1>mil mi-28</h1>
+            <p>Attack helicopter</p>
+            <a href="">read more...</a>
+          </div>
+        </span>
+
+        <!-- ______________IMAGES_________________________________________ -->
+
+        <div class="slider">
+          <div class="inset">
+
+            <figure>
+              <figcaption class="title-1">
+                <h1>PAK FA T-50</h1>
+                <p>Stealth multirole fighter</p>
+                <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg
+">read more...</a>
+              </figcaption>
+              <img src="https://github.com/lime7/slider/blob/master/images/1.png?raw=true" alt="" id="i-1" class="f">
+            </figure>
+
+            <figure>
+              <figcaption class="title-2">
+                <h1>Kamov Ka-50 "Black Shark"</h1>
+                <p>Attack helicopter</p>
+                <a href="">read more...</a>
+              </figcaption>
+              <img src="https://github.com/lime7/slider/blob/master/images/10.png?raw=true" alt="" id="i-2" class="f">
+            </figure>
+
+            <figure>
+              <figcaption class="title-3">
+                <h1>Sukhoi Su-27</h1>
+                <p>Air superiority fighter</p>
+                <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg
+">read more...</a>
+              </figcaption>
+              <img src="https://github.com/lime7/slider/blob/master/images/3.png?raw=true" alt="" id="i-3" class="f">
+            </figure>
+
+            <figure>
+              <figcaption class="title-4">
+                <h1>mil mi-28</h1>
+                <p>Attack helicopter</p>
+                <a href="">FIND OUT MORE</a>
+              </figcaption>
+              <img src="https://github.com/lime7/slider/blob/master/images/4.png?raw=true" alt="" id="i-4" class="f">
+            </figure>
+
+
+            <figure>
+              <figcaption class="title-5">
+                <h1>PAK FA T-50</h1>
+                <p>Stealth multirole fighter</p>
+                <a href="">read more...</a>
+              </figcaption>
+              <img src="https://github.com/lime7/slider/blob/master/images/1.png?raw=true" alt="" id="i-5" class="f">
+            </figure>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+  <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+    <div class="container">
+      <div class="row row-30">
+        <div class="col-md-4">
+          <h5>Über uns</h5>
+          <div class="pr-xl-4">
+            <p>Wir sind ein Familienfahrschule. Bei uns steht ein menschlicher, freundlicher Umgang mit den Fahrschülern
+              und natürlich die Bedürfnisse des Fahrschülers an erster Stelle.</p>
+            <!-- Rights-->
+            <p class="rights"><span>©</span><span class="copyright-year">2020</span><span> </span><span>Fahrschule
+                Weisbeck</span><span>. </span><span>Alle Rechte vorbehalten.</span></p>
+            <p class="rights"><span>Diese Webseite wurde durch Marcel Barner gestaltet</span><span>. </span><span>Alle
+                Rechte vorbehalten.</span></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5>Kontakt</h5>
+          <dl class="contact-list">
+            <dt>Addresse:</dt>
+            <dd>Gartenstr. 21 <br /> 73779 Deizisau</dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>E-Mail:</dt>
+            <dd><a href="mailto:weisbeck@fahrschule-weisbeck.de">weisbeck@fahrschule-weisbeck.de</a></dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>Telefon:</dt>
+            <dd><a href="tel:01622485497">0162 / 2485497</a>
+            </dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>Telefax:</dt>
+            <dd><a href="tel:07153992743">07153 / 992743</a>
+            </dd>
+          </dl>
+        </div>
+        <div class="col-md-4 col-xl-3">
+          <h5>Links</h5>
+          <ul class="nav-list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row no-gutters social-container">
+      <div class="col"><a class="social-inner" href="#"><span
+            class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span
+            class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span
+            class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span
+            class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
